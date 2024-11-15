@@ -1,0 +1,62 @@
+.car_images {
+    display: flex;
+    overflow-y: scroll;
+}
+.car_img {
+    width: 50em;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+.car_images::-webkit-scrollbar {
+    display: none;
+}
+.car_description {
+    display: flex;
+    color: white;
+    padding: 1em;
+    justify-content: space-around;
+    background-color: grey;
+}
+.car_description_title {
+    font-size: 1.5em;
+    color: black;
+}
+
+.tarif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarif_title {
+    padding: 1.6em;
+    font-size: 2em;
+    color: rgb(192, 171, 131);
+}
+.tarif_table {
+    color: rgb(172, 172, 172);
+    font-size: 1.5em;
+}
+table, th, td {
+    border: 1px solid rgb(74, 74, 74);
+}
+td {
+    padding: 1em;
+}
+.tarif_price {
+    color: rgb(162, 65, 65);
+}
+
+.information {
+    color: rgb(172, 172, 172);
+    font-size: 1em;
+    margin: 8em;
+    margin-top: 10em;
+}
+.information_title {
+    color: white;
+    font-size: 1.5em;
+}
+.information_text {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}

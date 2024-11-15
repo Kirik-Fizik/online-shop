@@ -1,0 +1,19 @@
+.contacts_map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    margin: 2em;
+    padding: 1em;
+}
+.contacts_information {
+    color: rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+.contacts_information > div {
+    padding: 1em;
+    font-size: 1.5em;
+}
