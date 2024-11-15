@@ -1,0 +1,97 @@
+.advert {
+    font-size: 2em;
+    background-image: url('../imgs/salon.jpg');
+    padding: 2em 1em 2em 1em;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+}
+
+.choices {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 4em .1em 2em .1em;
+}
+.choice {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.choice_marks {
+    position: fixed;
+    top: 3em;
+    left: 3em;
+    right: 3em;
+    bottom: 3em;
+    border-radius:  1em;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.choice_close {
+    position: fixed;
+    right: 2em;
+    top: 2em;
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+}
+.choice_close:hover {
+    cursor: pointer;
+}
+.mark {
+    width: 15em;
+    padding: 1em;
+    border: 1px solid white;
+}
+.mark:hover {
+    border: 1px solid black;
+    border-radius: 1em;
+}
+.mark:hover {
+    cursor: pointer;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.car {
+    padding: .5em;
+    margin: .2em;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+.car_title {
+    margin-top: .5em;
+}
+.car:hover {
+    cursor: pointer;
+    background-color: rgb(104, 104, 104);
+}
+.car_image {
+    width: 28em;
+}
+
+.classofcars {
+    font-size: 2em;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid white;
+}
+.classofcars:hover {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 1em;
+}
